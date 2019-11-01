@@ -6,5 +6,10 @@
    + And return the values as a multiplication table. 
 
 
+.
+
+.
+
+.
 
 ![JS multiplication table](https://github.com/lulineventures/js-multiplication_table/blob/master/Screenshot_2019-11-01%20Javascript.png)
