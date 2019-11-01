@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<title> Javascript </title>
+
+<body>
+
+    <h1>Multiplication Table </h1>
+    <p>row: <input type="number" name="number" id="row"></p>
+
+    <p>column: <input type="number" name="number" id="column"> </p>
+
+    <input type="button" value="Submit" onclick="submit_button()">
+    <table id="mytable"></table>
+
+    <script language="Javascript">
+        function submit_button() {
+            var rows = document.getElementById("row").value;
+            var columns = document.getElementById("column").value;
+
+            // table
+            var output = "";
+            for (var r = 1; r <= rows; r++) {
+                output += "<tr>";
+                for (var c = 1; c <= columns; c++) {
+                    output += "<td>" + r * c + "</td>";
+                }
+                output += "</tr>";
+            }
+
+            //output
+            document.getElementById("mytable").innerHTML = output;
+
+
+
+        }
+    </script>
+
+</body>
+
+</html>
