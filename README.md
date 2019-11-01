@@ -1,8 +1,7 @@
 # js-multiplication_table
-multiplication table in html and js
-
+#### multiplication table in html and js
+---
  This is one of my Javascript school assignment. 
- ------
    + The form shall get user input (input number of rows and columns)
    + And return the values as a multiplication table. 
 
